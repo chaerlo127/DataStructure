@@ -35,6 +35,14 @@ public class Main {
 			System.out.println(value);
 		}
 		System.out.println(numbers);
+		
+		for(int value : numbers){
+			System.out.println(value);
+		}
+		
+		for(int i = 0; i<numbers.size(); i++) {
+			System.out.println(numbers.get(i));
+		}
 	}
 
 }
